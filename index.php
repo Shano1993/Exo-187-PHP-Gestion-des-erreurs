@@ -22,9 +22,9 @@ function divide(int $number, int $by) {
 // TODO Compléter le code en fournissent un OU deux zéro en paramètre de la fonction divide !
 try {
     // Corrigez moi ( si je me trompe ! ).
-    $result = divide();
+    echo $result = divide(2,0);
     // Afficher la variable $result.
 }
-catch(//TODO Complétez moi !) {
-    // TODO afficher le message contenu dans $e.
+catch(Exception $exception) {
+    echo $exception->getMessage();
 }
